@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'TTLakes-Regular';
+    src: url("../fonts/TTLakes-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'TTLakes-Bold';
+    src: url("../fonts/TTLakes-Bold.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'TTLakes-Medium';
+    src: url("../fonts/TTLakes-Medium.ttf") format('truetype');
+}
+
+@import "navigation.scss";
+@import "list.scss";
+@import "description.scss";
+@import "swiper.scss";
+@import "aside.scss";
+@import "feedback.scss";
+@import "table.scss";
+@import "modal-call.scss";

@@ -1,0 +1,59 @@
+table {
+    font-family: TT Lakes;
+    border-collapse: collapse;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    width: 95%;
+    @media (min-width: 300px) and (max-width: 767px) {
+        display: none;
+    }
+}
+
+th {
+    color: #7E7E82;
+    font-weight: 500;
+    text-align: left;
+    background-color: #F8F8F8;
+    padding: 1rem;
+}
+
+td {
+    background-color: white;
+    padding: 1rem;
+}
+
+tr {
+    border-bottom: 1.5px solid #F8F8F8;
+}
+
+#table-image {
+    position: static;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+#table-image:hover {
+    filter: drop-shadow(5px 5px 5px #FF3E79);
+}
+
+#table-image:active {
+    transform: translateY(5px);
+    transition: 0.1s;
+}
+
+
+.topright {
+    border-radius: 0 10px 0 0;
+}
+
+.topleft {
+    border-radius: 10px 0 0 0;
+}
+
+.bottomleft {
+    border-radius: 0 0 0 10px;
+}
+
+.bottomright {
+    border-radius: 0 0 10px 0;
+}

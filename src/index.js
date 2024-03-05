@@ -1,0 +1,5 @@
+import WebpackLogo from './img/webpack.svg'
+import 'normalize.css'
+import './styles/style.scss'
+import swiper from './swiper'
+import buttons from './buttons'
