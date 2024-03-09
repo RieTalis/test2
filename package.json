@@ -48,6 +48,7 @@
   "dependencies": {
     "autoprefixer": "^10.4.17",
     "editorconfig": "^2.0.0",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "postcss-loader": "^8.1.1"
   }
 }
