@@ -8,7 +8,6 @@
     "dev": "webpack --mode development",
     "product": "webpack --mode production",
     "watch": "webpack --mode development --watch",
-    "test": "test",
     "start": "webpack-dev-server --mode development --open",
     "deploy": "gh-pages -d dist",
     "init": "git init -b main"

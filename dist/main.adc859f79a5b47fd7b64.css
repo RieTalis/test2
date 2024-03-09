@@ -1,3 +1,6 @@
+/*!**********************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/normalize.css/normalize.css ***!
+  \**********************************************************************************************/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -348,6 +351,9 @@ template {
   display: none;
 }
 
+/*!***************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!./styles/navigation.scss ***!
+  \***************************************************************************/
 .navigation {
     display: flex;
     gap: 1rem;
@@ -582,6 +588,9 @@ main {
         align-items: center;
     }
 }
+/*!*********************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!./styles/list.scss ***!
+  \*********************************************************************/
 .list {
     overflow-x: scroll;
     display: flex;
@@ -654,6 +663,9 @@ main {
         padding-bottom: 3rem;
     }
 }
+/*!****************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!./styles/description.scss ***!
+  \****************************************************************************/
 body {
     font-family: "TT Lakes";
 }
@@ -747,6 +759,9 @@ body {
 }
 
 
+/*!***********************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!./styles/swiper.scss ***!
+  \***********************************************************************/
  
     .expand {
         display: none;
@@ -1000,6 +1015,9 @@ body {
     }
 
  
+/*!**********************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!./styles/aside.scss ***!
+  \**********************************************************************/
 .aside-menu {
     position: fixed;
     width: 320px;
@@ -1209,6 +1227,9 @@ body {
         width: auto;
     }
 }
+/*!*************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!./styles/feedback.scss ***!
+  \*************************************************************************/
 .feedback {
     font-size: 14px;
     width: 320px;
@@ -1315,6 +1336,9 @@ body {
     }
 }
 
+/*!**********************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!./styles/table.scss ***!
+  \**********************************************************************/
 table {
     font-family: TT Lakes;
     border-collapse: collapse;
@@ -1374,6 +1398,9 @@ tr {
 .bottomright {
     border-radius: 0 0 10px 0;
 }
+/*!***************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!./styles/modal-call.scss ***!
+  \***************************************************************************/
 .modal-call {
     font-size: 14px;
     width: 320px;
@@ -1474,6 +1501,9 @@ tr {
         margin-left: 2rem;
     }
 }
+/*!**********************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!./styles/style.scss ***!
+  \**********************************************************************/
 @font-face {
     font-family: 'TTLakes-Regular';
     src: url(a0bf8bd54132d614be5d.ttf) format('truetype');
@@ -1488,4 +1518,4 @@ tr {
 }
 
 
-/*# sourceMappingURL=main.66bf34d9be9807504436.css.map*/
+/*# sourceMappingURL=main.adc859f79a5b47fd7b64.css.map*/
