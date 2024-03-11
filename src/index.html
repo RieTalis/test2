@@ -69,39 +69,39 @@
     </aside>
     <div class="overlay"></div>
     <main>
-        <div class="feedback">
+        <form class="feedback">
             <img class="feedback__close" src="close.svg" alt="close">
             <div class="feedback__string">
                 <img class="feedback__highlight" src="highlight.svg" alt="divider">
                 <h1 class="feedback__heading">Обратная связь</h1>
             </div>
-            <input class="feedback__input" type="text" placeholder="  Имя">
-            <input class="feedback__input" type="text" placeholder="  Телефон">
-            <input class="feedback__input" type="text" placeholder="  Электронная почта">
-            <input class="feedback__input--message" type="text" placeholder="  Сообщение">
+            <input class="feedback__input" type="text" required placeholder="Имя">
+            <input class="feedback__input" type="text" required placeholder="Телефон">
+            <input class="feedback__input" type="text" required placeholder="Электронная почта">
+            <input class="feedback__input--message" type="text" required placeholder="Сообщение">
             <div class="feedback__paragraph">
                 <span>Нажимая "отправить", вы даете согласие на </span><span style="color: #FF3E79;">обработку персональных данных </span>
                 <span>и соглашаетесь с нашей </span><span style="color: #FF3E79;">политикой конфиденциальности </span>
             </div>
             <button class="feedback__send">
-                <img src="send.svg" alt="send">
+                ОТПРАВИТЬ
             </button>
-        </div>
-        <div class="modal-call">
+        </form>
+        <form class="modal-call">
             <img class="modal-call__close" src="close.svg" alt="close">
             <div class="modal-call__string">
                 <img class="modal-call__highlight" src="highlight.svg" alt="divider">
                 <h1 class="modal-call__heading">Заказать звонок</h1>
             </div>
-            <input class="modal-call__input" type="text" placeholder="  Телефон">
+            <input class="modal-call__input" type="text" required placeholder="Телефон">
             <div class="modal-call__paragraph">
                 <span>Нажимая "отправить", вы даете согласие на </span><span style="color: #FF3E79;">обработку персональных данных </span>
                 <span>и соглашаетесь с нашей </span><span style="color: #FF3E79;">политикой конфиденциальности </span>
             </div>
             <button class="modal-call__send">
-                <img src="send.svg" alt="send">
+                ОТПРАВИТЬ
             </button>
-        </div>
+        </form>
         <nav>
             <ul class="list">
                 <li><button class="list__button list__button--current">Ремонтируемые устройства</button></li>
@@ -190,31 +190,31 @@
                             <td class="topleft">Диагностика</td>
                             <td>Бесплатно</td>
                             <td>30 минут</td>
-                            <td class="topright"><img id="table-image" src="order.svg" alt="Продукт 1"></td>
+                            <td class="topright"><button class="table__button">ЗАКАЗАТЬ</button></td>
                         </tr>
                         <tr>
                             <td>Замена дисплея</td>
                             <td>2 000 ₽</td>
                             <td>30-120 мин</td>
-                            <td><img id="table-image" src="order.svg" alt="Продукт 1"></td>
+                            <td><button class="table__button">ЗАКАЗАТЬ</button></td>
                         </tr>
                         <tr>
                             <td>Замена полифонического динамика</td>
                             <td>1 000 ₽</td>
                             <td>30-120 мин</td>
-                            <td><img id="table-image" src="order.svg" alt="Продукт 1"></td>
+                            <td><button class="table__button">ЗАКАЗАТЬ</button></td>
                         </tr>
                         <tr>
                             <td>Тестирование с выдачей технического заключения</td>
                             <td>1 500 ₽</td>
                             <td>30-120 мин</td>
-                            <td><img id="table-image" src="order.svg" alt="Продукт 1"></td>
+                            <td><button class="table__button">ЗАКАЗАТЬ</button></td>
                         </tr>
                         <tr>
                             <td class="bottomleft">Замена программного обеспечения</td>
                             <td>1 000 ₽</td>
                             <td>30-120 мин</td>
-                            <td class="bottomright"><img id="table-image" src="order.svg" alt="Продукт 1"></td>
+                            <td class="bottomright"><button class="table__button">ЗАКАЗАТЬ</button></td>
                         </tr>
                     </tbody> 
                 </table>

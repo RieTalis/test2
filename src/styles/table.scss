@@ -26,21 +26,41 @@ tr {
     border-bottom: 1.5px solid #F8F8F8;
 }
 
-#table-image {
-    position: static;
+.table__button {
+    position: relative;
+    bottom: 0;
+    border: none;
+    background: #FF3E79;
+    border-radius: 20px;
+    width: 119px;
+    height: 32px;
     cursor: pointer;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 0.75rem;
     transition: 0.1s;
 }
 
-#table-image:hover {
+.table__button:hover {
     filter: drop-shadow(5px 5px 5px #FF3E79);
 }
 
-#table-image:active {
+.table__button:active {
     transform: translateY(5px);
     transition: 0.1s;
 }
 
+.table__button::after {
+    content: "";
+    padding-left: 0.5rem;
+    background-image: url('/img/dropdown.svg');
+    background-repeat: no-repeat;
+    margin-left: 1rem;
+    position: relative;
+    top: 3px;
+}
 
 .topright {
     border-radius: 0 10px 0 0;

@@ -31,7 +31,7 @@
 
 .feedback__input {
     font-size: 16px;
-    width: 288px;
+    width: 278px;
     height: 48px;
     top: 160px;
     left: 16px;
@@ -39,9 +39,11 @@
     border-radius: 10px;
     margin-bottom: 1rem;
     margin-left: 1rem;
+    padding-left: 0.5rem;
     @media (min-width:1440px) {
         width: 370px;
         margin-left: 2rem;
+        padding-left: 1rem;
     }
 }
 
@@ -65,12 +67,14 @@
 
 .feedback__input--message {
     font-size: 16px;
-    width: 288px;
+    width: 278px;
     height: 118px;
     border: 1px solid #EAEAEA;
     border-radius: 10px;
     margin-left: 1rem;
+    padding-left: 0.5rem;
     @media (min-width:1440px) {
+        padding-left: 1rem;
         width: 370px;
         margin-left: 2rem;
     }
@@ -87,12 +91,28 @@
     position: relative;
     bottom: 0;
     border: none;
-    background: white;
+    background: #FF3E79;
+    border-radius: 15px;
+    width: 136px;
+    height: 32px;
     margin-left: 165px;
     cursor: pointer;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
     @media (min-width:1440px) {
         margin-left: 17rem;
     }
+}
+
+.feedback__send::after {
+    content: "";
+    padding-left: 0.5rem;
+    background-image: url('/img/dropdown.svg');
+    background-repeat: no-repeat;
+    margin-left: 0.5rem;
+    position: relative;
+    top: 3px;
 }
 
 .feedback__paragraph {
